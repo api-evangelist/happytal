@@ -1,7 +1,27 @@
 aid: happytal
 name: Happytal
-description: 'Happytal is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Happytal is a French healthtech and services company founded in 2013 and
+  acquired by La Poste Group''s health division (La Poste Santé) in 2022. It operates a
+  hospital concierge service (conciergerie hospitalière) that combines a digital platform
+  with on-site human concierges to simplify the administrative, medical and hotel journey
+  of each patient. Services include in-room delivery, a comfort-products marketplace,
+  private-room and admission paperwork assistance, and support for patients, their
+  families and hospital staff across French healthcare establishments, alongside
+  elder-care/EHPAD offerings and the careside.care business-to-business product for
+  care facilities. Happytal exposes no public developer API; this profile is maintained
+  in the API Evangelist network as a company record enriched from public sources.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.happytal.com/logo-happytal-desktop.svg
 url: https://raw.githubusercontent.com/api-evangelist/happytal/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +31,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Healthcare
+- Health
+- France
+- Concierge
+- Marketplace
+- Elder Care
+- Patient Experience
+- HealthTech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +50,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/happytal-domain-security.yml
 - type: Website
   url: https://www.happytal.com/
+- type: About
+  url: https://www.happytal.com/a-propos
+- type: GitHubOrganization
+  url: https://github.com/happytal
+- type: TermsOfService
+  url: https://www.happytal.com/legal/cgu-marketplace
+- type: PrivacyPolicy
+  url: https://www.happytal.com/legal/ppdp
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
