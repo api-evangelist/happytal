@@ -10,6 +10,17 @@ description: 'Happytal is a French healthtech and services company founded in 20
   elder-care/EHPAD offerings and the careside.care business-to-business product for
   care facilities. Happytal exposes no public developer API; this profile is maintained
   in the API Evangelist network as a company record enriched from public sources.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
